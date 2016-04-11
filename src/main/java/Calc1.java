@@ -10,7 +10,7 @@ public class Calc1 {
 			result = x-y;
 		}
 		
-		public int GetResult(){
+		public int getResult(){
 			return result;
 		}
 }
