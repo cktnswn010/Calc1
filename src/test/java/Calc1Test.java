@@ -31,4 +31,11 @@ public class Calc1Test {
 		assertEquals(200,calc.getResult());
 	}
 	
+	@Test
+	public void testDiv(){
+		Calc1 calc = new Calc1();
+		calc.mul(20, 20);
+		assertEquals(1,calc.getResult());
+	}
+	
 }
